@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body,
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.form-geral{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: blanchedalmond;
+  border: 1px solid #000;
+  color: #000;
+  padding: 10px;
+  font-weight: bold;
+}
+
+input[type="text"], input[id="Email"]{
+  margin-bottom: 10px;
+  width: 99%;
+  border: 2px solid #391b1b;
+  border-style: double;
+}
+
+#submit-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  max-width: 100%;
+  background-color: #391b1b;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 12px;
+}
+
+.form-geral-falha{
+  border: 1px solid red;
+}
+
+.form-grup{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+} 
+
+::placeholder{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.error {
+  background-color: red;
+  transition: 0.5s;
+}
+
+#Email:invalid {
+  border: 2px solid red;
+}
