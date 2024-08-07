@@ -1,0 +1,77 @@
+h1, h2, h3, p{
+    color: white;
+    font-weight: 100;
+    margin: 12px 0 0;
+}
+
+/* h1{
+    
+}
+
+h2{
+   
+} */
+
+.container{
+    display: flex;
+    position: relative;
+    background-image: linear-gradient( to right, red, black, red, black );
+    width: 80%;
+    height: 200px;
+    max-width: 1000px;
+    background-size: cover;
+}
+
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+
+.main-master{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 500px;
+    margin: 5px 5px 5px 5px;
+    /* justify-content: space-evenly; */
+}
+
+
+.torcida{
+    display: flex;
+    /* position: relative;
+    align-self: flex-end; */
+    width: 360px;
+    height: 248px;
+    /* margin-top: 20px; */
+}
+
+.container-sub{
+    display: flex;
+    justify-content: center;
+}
+
+#btn-buy{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: rgb(53, 52, 52);
+    border-style: none;
+    color: white;
+}
+
+#ReadAll{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+article{
+    display: flex;
+    position: relative;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 250px;
+}

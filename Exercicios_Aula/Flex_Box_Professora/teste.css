@@ -1,0 +1,28 @@
+html, body{
+    height: 100%;
+
+}
+
+header{
+    display: flex;
+    border: 1px solid orangered;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main div{
+    border: 1px solid plum;
+  flex: 1;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}

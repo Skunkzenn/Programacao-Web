@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- <form name="loginForm" onsubmit="return validarCampos()"> -->
+        
+        <!-- Cria-se o formulário -->
+        <form id="login-form">
+            <h1>Página de Acesso</h1>
+
+            <!-- Nome de utilizador -->
+            <div class="form-group">
+                <label for="username">Utilizador:</label><br>
+                <input type="text" name="username" id="username">
+
+                <!-- Tratamento de erros 
+                <div class="error-message" id="username-error"></div>--><!-- required="required" -->
+            </div>
+            <br>
+
+            <!-- Palavra Passe -->
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" >
+
+                <!-- Tratamento de erros
+                    <div class="error-message" id="password-error"></div> --><!-- required="required" -->
+            </div>
+            <button type="submit" onclick="ValidarCampos()">Click</button>
+        </form>
+    </div>
+    <script src="formulario.js"></script>
+</body>
+</html>
